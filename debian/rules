@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
+export GO111MODULE := off
 
 export DH_GOPKG := jsouthworth.net/go/try
 
 %:
-	dh $@ --buildsystem=golang --with=golang
+	dh $@ --buildsystem=golang --with golang
 

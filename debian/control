@@ -1,10 +1,16 @@
 Source: golang-jsouthworth-try
 Section: devel
-Priority: extra
-Maintainer: John Southworth <jx756k@att.com>
-Build-Depends: debhelper (>= 9), dh-golang, golang-go, golang-jsouthworth-dyn-dev
-Standards-Version: 3.9.8
+Priority: optional
+Maintainer: NuDanOS Maintainers <jon@fernandez.tech>
+Build-Depends: debhelper-compat (= 13),
+ dh-golang,
+ golang-go,
+ golang-jsouthworth-dyn-dev
+Standards-Version: 4.7.2
 Homepage: https://jsouthworth.net/go/try
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/nudanos/golang-jsouthworth-try.git
+Vcs-Browser: https://github.com/nudanos/golang-jsouthworth-try
 
 Package: golang-jsouthworth-try-dev
 Architecture: all
@@ -15,4 +21,3 @@ Description: Try/catch helper for the go programming language.
  a traditional try/catch.
  .
  This package contains the source.
-
