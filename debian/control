@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: NuDanOS Maintainers <jon@fernandez.tech>
 Build-Depends: debhelper-compat (= 13),
  dh-golang,
+ go-staticcheck <!nocheck>,
  golang-go,
  golang-jsouthworth-dyn-dev
 Standards-Version: 4.7.2
