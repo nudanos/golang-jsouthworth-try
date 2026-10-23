@@ -1,3 +1,11 @@
+golang-jsouthworth-try (1.0+nudanos3) trixie; urgency=medium
+
+  * Code-quality lint fixes (distro docs/porting.md): analyzer findings
+    fixed, see the git log.
+  * staticcheck runs in the build.
+
+ -- NuDanOS Maintainers <jon@fernandez.tech>  Fri, 23 Oct 2026 12:17:29 +0000
+
 golang-jsouthworth-try (1.0+nudanos2) trixie; urgency=medium
 
   * go vet every Go package, vendored code included.
